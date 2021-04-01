@@ -1,0 +1,19 @@
+@import './variables';
+
+#cellphone{
+ background-image:url(../images/cellphone-purple-bee.png);
+ background-size: contain;
+ height: 576px;
+ max-height: 600px;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.cellphone{
+ h5{
+  padding-top: 10px;
+ }
+
+}
+.cellphone-group{
+ padding-top: 30px;
+}

@@ -1,0 +1,13 @@
+@import "./variables";
+
+.sobre-nos {
+ background-image: url(../images/bg.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+  h5 {
+    i {
+      font-weight: 100 !important;
+    }
+  }
+}

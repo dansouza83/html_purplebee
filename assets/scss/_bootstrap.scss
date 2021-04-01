@@ -1,0 +1,26 @@
+@import "./variables";
+.navbar-brand {
+  padding-top: $navPadTop !important;
+  padding-bottom: $navPadBottom !important;
+}
+.card {
+  background-color: $cardBgColor !important;
+  border: none !important;
+  text-align: center !important;
+}
+.card-img-top {
+ @extend .card;
+ max-width: 190px !important;
+}
+.btn-outline-primary{
+color: $mainFontColor !important;
+border-color: $primary !important;
+border-radius: 1.85rem !important;
+border: 2px solid $primary !important;
+}
+.btn-outline-primary:hover{
+ @extend .btn-outline-primary;
+ border-color: $mainFontColor !important;
+ background-color: $primary !important;
+}
+

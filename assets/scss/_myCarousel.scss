@@ -1,0 +1,12 @@
+@import './variables';
+.myCarousel{
+ min-height: 400px;
+ .carousel-item{
+  min-height: 300px;
+ }
+ .carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 33%;
+ }
+}

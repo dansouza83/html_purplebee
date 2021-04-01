@@ -1,0 +1,6 @@
+@import './variables';
+.showcase{
+ background-image: $showcaseBackground !important;
+ background-size: cover;
+ min-height: 150vh;
+}

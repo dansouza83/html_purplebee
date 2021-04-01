@@ -1,0 +1,13 @@
+@import './variables';
+
+.logo{
+ background-image: url(../images/logo1.png);
+ background-size: contain !important;
+ background-position: center !important;
+ background-repeat: no-repeat !important;
+ min-height: 100px;
+}
+.logo:hover{
+ @extend .logo;
+ background-image: url(../images/logo1-hover.png) !important;
+}

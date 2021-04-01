@@ -1,0 +1,12 @@
+@import './variables';
+body {
+ font-family: 'Oxygen' !important;
+ background-color: $backgroundColor !important;
+ color:$mainFontColor !important;
+ min-height: $minHeight !important;
+ line-height: $lineHeight !important;
+ -webkit-font-smoothing: antialiased;
+ .navbar-brand img {
+  max-width:$logoMaxWidth !important;
+ }
+}

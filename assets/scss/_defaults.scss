@@ -1,0 +1,28 @@
+@import './variables';
+h1{
+ font-size: $h1FontSize !important;
+ small{
+  font-size:$h1SmallFontSize !important;
+ }
+}
+
+.img-center{
+ display: block !important;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+
+section{
+ padding: 5rem 0 0 0;
+}
+
+.fa-lg {
+ font-size: 3em !important;
+}
+
+html {
+ scroll-behavior: smooth;
+}
+
+
+
